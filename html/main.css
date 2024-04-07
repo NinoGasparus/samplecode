@@ -1,0 +1,125 @@
+:root {
+  --header-height: 3.5rem;
+
+  --first-color: #333333; 
+  --title-color: #666666; 
+  --text-color: #999999; 
+  --border-color: #CCCCCC; 
+  --white-color: #FFFFFF; 
+  --body-color: #F2F2F2; 
+  --container-color: #FFFFFF; 
+
+  --body-font: "Montserrat", sans-serif;
+  --second-font: "Montagu Slab", serif;
+  --biggest-font-size: 2rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: .938rem;
+  --small-font-size: .813rem;
+  --smaller-font-size: .75rem;
+
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semi-bold: 600;
+
+  --z-tooltip: 10;
+  --z-fixed: 100;
+}
+.login-link {
+    font-size: 19px; 
+  }
+
+tr:nth-child(even) {
+  background-color: #f0f0f0; 
+}
+
+tr:nth-child(odd) {
+  background-color: var(--white-color); 
+}
+
+.gif-left,
+.gif-right {
+
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  
+}
+
+.gif-left img,
+.gif-right img {
+  width: 150px; 
+}
+
+.gif-left {
+  left: 0;
+}
+
+.gif-right {
+  right: 0;
+}
+
+
+#graph{
+   /* background-color: #ff0000; */
+    height: 55vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+#b1, #b2, #b3 {
+   font-size:x-large;
+}
+
+.lead   {
+    margin-top:3vh;
+   
+    display: flex;
+    justify-content: center;
+    
+}
+.lead > *{
+
+    width: 33%;
+}
+
+
+#dataranges{
+  margin-top:20px;
+  background-color: red;
+  display: flex;
+  
+  
+}
+#dataranges button{
+  background-color: var(--first-color);
+  color: var(--white-color);
+  font-weight: bold;
+  border:none;
+  margin-left: 0px;
+  margin-right: 0px;
+  width:   calc(100%/4)/*12.5%;*/
+
+}
+#dataranges button:hover{
+  color: var(--first-color);
+  background-color: var(--white-color);
+  
+}
+
+
+#alarmButton{
+  margin-top:2vh;
+  width: 100%;
+  padding: 1rem; 
+  cursor: pointer;
+  background-color: var(--first-color); 
+  color: white; 
+  border: none;
+  display: none;
+  border-radius: 0.5rem; 
+  transition: background-color 0.3s; 
+ 
+  background-color: hsl(328, 76%, 40%); 
+}
+
